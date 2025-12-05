@@ -2,7 +2,9 @@
   <div class="flex w-full h-screen bg-gradient-to-br from-gray-100 to-gray-200">
     <AppSidebar />
     <main class="w-full overflow-auto">
-      <slot />
+      <div class="mx-auto container">
+        <slot />
+      </div>
     </main>
   </div>
 </template>
